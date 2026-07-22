@@ -7,14 +7,15 @@ jobs:
   deploy:
     name: Build & Deploy
     runs-on:  [self-hosted, club emis]
-    env:
-      REACT_APP_SPREADSHEET_API_KEY: ${{ secrets.REACT_APP_SPREADSHEET_API_KEY }}
+    # Move secrets into the specific step to avoid invalid context access at job level
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Run Unified VPS Deployer
+        env:
+          REACT_APP_SPREADSHEET_API_KEY: ${{ secrets.REACT_APP_SPREADSHEET_API_KEY }}
         run: |
           cd /srv/deployer
           node deploy.js $GITHUB_REPOSITORY
