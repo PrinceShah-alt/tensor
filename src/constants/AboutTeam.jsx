@@ -142,15 +142,15 @@ const CurrentTeam = [
         github:"https://github.com/bani00000",
         linkedin:"https://np.linkedin.com/in/bani-karki-234287371",
     },
-    // {
-    //    Image: images['Jay'],
-    //    Name: "Jaydharma Sapkoka",
-    //    Role: "Junior Research Advocate",
-    //    facebook: "",
-    //    instagram: "",
-    //    github: "",
-    //    linkedin: ""
-    // },
+    {
+       Image: images['Jay'],
+       Name: "Jay Sapkoka",
+       Role: "Junior Research Advocate",
+       facebook: "https://www.facebook.com/ankit.sapkota.1297",
+       instagram: "https://www.instagram.com/_ankit_sapkota?igsh=MThmbmYyeWllYnN4dg==",
+       github: "https://github.com/jayadharmasapkota",
+       linkedin: ""
+    },
     {
         Image: images['Prakash'],
         Name: "Prakash Kumar Badaila",
