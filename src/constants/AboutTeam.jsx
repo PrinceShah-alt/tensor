@@ -134,7 +134,7 @@ const CurrentTeam = [
 
     },
     {
-        Image:image['Bani'],
+        Image:images['Bani'],
         Name:"Bani Karki",
         Role:"Grphics Designer",
         facebook:"https://www.facebook.com/vani.karki0.0.0",
