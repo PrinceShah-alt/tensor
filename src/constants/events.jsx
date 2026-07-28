@@ -6,6 +6,12 @@ import webDevelopment from '../images/gallery/Web Development/cover.jpg'
 import uiuxDesign from '../images/gallery/UI UX Design/cover.jpg'
 
 const events = [
+        {   
+        eventImage: "Python",
+        title : 'Machine Learning',
+        date : '15th Jan - 21th Jan 2025',
+        description : "This 7 days workshop explored on how core ML algorithms like linear regression, k-means, or decision trees can be implemented from scratch using C for better understanding of their inner workings. As Machine Learning stands at the forefront of contemporary technological innovation, offering transformative opportunities across various sectors. Engaging in this workshop provided participants with condensed sessions to swiftly acquire essential ML knowledge, hands-on experience with real-world ML applications and enhance ones professional trajectory with in-demand ML expertise. So, step into the world of Machine Learning with our hands-on workshop designed for beginners and enthusiasts. Learn core ML concepts, explore real-world applications, and build your first ML model. This session will give you a strong foundation to kickstart your journey into AI and data science."
+    },
     {   
         eventImage: machineLearning,
         title : 'Machine Learning',
