@@ -4,6 +4,7 @@ import docker from '../images/gallery/Docker/cover.png'
 import pythonAutomation from '../images/gallery/Python Automation/cover.png'
 import webDevelopment from '../images/gallery/Web Development/cover.jpg'
 import uiuxDesign from '../images/gallery/UI UX Design/cover.jpg'
+import pythonData from '../images/gallery/pythonData/cover.jpg'
 
 const events = [
         {   
@@ -47,7 +48,13 @@ const events = [
         title : 'Web Development',
         date : '5th June - 7th June 2022',
         description : "Web development workshop introduced participants to HTML, CSS, and JavaScript through hands-on projects like building a personal website or a simple app. Also, they were acquainted to responsive design, version control with Git, and basic website deployment using GitHub Pages. Learn to create websites from scratch in this beginner-friendly Web Development session! Explore the fundamentals of HTML, CSS, and JavaScript, and get hands-on experience building responsive and interactive web pages. You’ll also get an introduction to modern development tools, best practices, and how websites actually work behind the scenes. By the end of the session, you’ll have built your own basic website and gained the confidence to dive deeper into the world of web development."
-    }
+    },
+    {
+        eventImage: pythonData,
+        title : 'Python For Data Science',
+        date : '25th Jan - 29th Jan 2025',
+        description : "This 4 days workshp focused on the data science for beginers where participants learned basics of python,some fundamental libraries such as NumPy, Pandas, Matplotlib, and scikit-learn and how to apply them to analyze and visualize data. The workshop also covered essential concepts like data cleaning, exploratory data analysis, and basic statistical techniques. By the end of the workshop, participants gained practical skills to work with real-world datasets and draw meaningful insights.    ",   
+     }
 ]
 
 export default events;
